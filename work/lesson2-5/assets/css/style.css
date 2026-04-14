@@ -23,32 +23,11 @@
     margin: 0 auto 64px;
 }
 
-.p-pickUp__label {
-    display: inline-block;
-    margin-bottom: 16px;
-    padding: 1px 12px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #8c97ff;
-    border-radius: 15px;
-}
-
 .p-pickUp__body {
     padding: 28px;
     border-radius: 20px;
     border: 1px solid #000;
     box-shadow: 12px 12px #ccccff;
-}
-
-.p-pickUp__image {
-    display: block;
-    margin: 0 auto 28px;
-}
-
-.p-pickUp__title {
-    font-size: 18px;
-    margin-bottom: 12px;
 }
 
 .p-pickUp__icon {
@@ -89,6 +68,28 @@
     font-weight: bold;
 }
 
-.c-text__small {
+.c-title--pickup {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.c-text--small {
     font-size: 12px;
+}
+
+.c-label--pickup {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 1px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #8c97ff;
+    border-radius: 15px;
+}
+
+.c-image--pickup {
+    display: block;
+    margin: 0 auto 28px;
 }
