@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*----------------- 
+/*-----------------
     l-header
 -----------------*/
 .l-header {
@@ -8,19 +8,19 @@
     text-align: center;
 }
 
-/*----------------- 
+/*-----------------
     l-main
 -----------------*/
 .l-main {
     margin: 0 auto;
 }
 
-/*----------------- 
+/*-----------------
     p-pickUp
 -----------------*/
 .p-pickUp {
-    width: 65%;
-    margin: 0 auto 64px;
+    width: 60%;
+    margin: 0 auto 96px;
 }
 
 .p-pickUp__body {
@@ -51,18 +51,92 @@
     background-color: #eee;
 }
 
-.p-pickUp__price {
-    font-size: 16px;
-}
-
 .p-pickUp__tag-item {
     font-size: 14px;
     color: #8c97ff;
 }
 
-/*----------------- 
+/*-----------------
+    p-new
+-----------------*/
+.p-new {
+    max-width: 1200px;
+    margin: 0 auto 160px;
+}
+
+.p-new__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p-new__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 16px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 8px 8px #7fe6a8;
+}
+
+.p-new__item:nth-child(n+5) {
+    margin-bottom: 0;
+}
+
+.p-new__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/*-----------------
     component
 -----------------*/
+.c-button {
+    font-size: 12px;
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 4px 12px;
+}
+
+.c-label {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 1px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.c-label--pickup {
+    background-color: #8c97ff;
+}
+
+.c-label--new {
+    background-color: #7fe6a8;
+    padding: 1px 10px;
+}
+
+.c-image {
+    display: block;
+}
+
+.c-image--pickup {
+    margin: 0 auto 28px;
+}
+
+.c-text--small {
+    font-size: 12px;
+}
+
+.c-price {
+    font-size: 16px;
+}
+
 .c-title {
     font-size: 24px;
     font-weight: bold;
@@ -71,25 +145,9 @@
 .c-title--pickup {
     margin-bottom: 12px;
     font-size: 18px;
-    font-weight: normal;
 }
 
-.c-text--small {
+.c-title--new {
     font-size: 12px;
-}
-
-.c-label--pickup {
-    display: inline-block;
-    margin-bottom: 16px;
-    padding: 1px 12px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #8c97ff;
-    border-radius: 15px;
-}
-
-.c-image--pickup {
-    display: block;
-    margin: 0 auto 28px;
+    font-weight: normal;
 }
