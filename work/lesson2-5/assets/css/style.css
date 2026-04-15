@@ -30,12 +30,6 @@
     box-shadow: 12px 12px #ccccff;
 }
 
-.p-pickUp__icon {
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: 5px;
-}
-
 .p-pickUp__description {
     font-size: 14px;
     margin-bottom: 8px;
@@ -47,6 +41,7 @@
 
 .p-pickUp__spec-item {
     display: inline-block;
+    padding: 0 5px;
     font-size: 12px;
     background-color: #eee;
 }
@@ -55,41 +50,53 @@
     font-size: 16px;
 }
 
-.p-pickUp__tag-item {
-    font-size: 14px;
-    color: #8c97ff;
+.p-pickUp__tag {
+    margin-top: 8px;
 }
 
 /*----------------- 
     component
 -----------------*/
-.c-title {
-    font-size: 24px;
-    font-weight: bold;
-}
 
-.c-title--pickup {
-    margin-bottom: 12px;
-    font-size: 18px;
-    font-weight: normal;
-}
-
-.c-text--small {
-    font-size: 12px;
-}
-
-.c-label--pickup {
+.c-label {
     display: inline-block;
     margin-bottom: 16px;
     padding: 1px 12px;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
-    background-color: #8c97ff;
     border-radius: 15px;
 }
 
-.c-image--pickup {
+.c-label--purple {
+    background-color: #8c97ff;
+}
+
+.c-icon {
+    /* vertical-align: middle; */
+    margin-left: 5px;
+}
+
+.c-image {
     display: block;
     margin: 0 auto 28px;
 }
+.c-tag {
+    font-size: 14px;
+    color: #8c97ff;
+}
+
+.c-text--small {
+    font-size: 12px;
+}
+
+.c-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.c-title--medium {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
